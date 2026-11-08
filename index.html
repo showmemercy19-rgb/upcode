@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcode.id | Enterprise AI Automation & High-Performance Engineering</title>
+  <meta name="description" content="Upcode provides end-to-end AI workflow automation, custom high-performance web development, B2B lead generation, and turnkey digital engineering for growing businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #030712; color: #f3f4f6; }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+    }
+    .glow-bg {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.18) 0%, rgba(3, 7, 18, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-500 selection:text-white relative overflow-x-hidden">
+
+  <div class="glow-bg"></div>
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-gray-800/80 bg-gray-950/80">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-400 flex items-center justify-center shadow-lg shadow-brand-500/25">
+          <span class="font-mono font-bold text-xl text-white">&lt;/&gt;</span>
+        </div>
+        <span class="text-2xl font-bold tracking-tight text-white font-mono">UPCODE<span class="text-brand-400">.ID</span></span>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+        <a href="#services" class="hover:text-brand-400 transition">Services</a>
+        <a href="#apify-tools" class="hover:text-brand-400 transition">Data Engines</a>
+        <a href="#pricing" class="hover:text-brand-400 transition">Pricing</a>
+        <a href="#faq" class="hover:text-brand-400 transition">FAQ</a>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="#contact" class="px-5 py-2.5 rounded-lg bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition shadow-lg shadow-brand-600/30">
+          Book Consultation
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative pt-40 pb-24 px-6 max-w-7xl mx-auto text-center z-10">
+    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-500/30 bg-brand-500/10 text-brand-300 text-xs font-semibold mb-8 tracking-wide uppercase font-mono">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      Autonomous AI & Web Engineering Stack
+    </div>
+
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-tight">
+      Automate Your Business. <br class="hidden sm:inline">
+      <span class="bg-gradient-to-r from-brand-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">Scale Without Limits.</span>
+    </h1>
+
+    <p class="mt-8 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+      We build autonomous AI agents, WhatsApp & CRM automations, B2B lead pipelines, and ultra-fast web platforms engineered to convert traffic into measurable revenue.
+    </p>
+
+    <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 text-white font-bold text-base shadow-xl shadow-brand-600/25 transition">
+        Explore Solutions & Pricing
+      </a>
+      <a href="https://wa.me/601125191451?text=Hi%20Upcode,%20I%20would%20like%20to%20discuss%20an%20AI%20Automation%20/%20Web%20project." target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl border border-gray-700 bg-gray-900/60 hover:bg-gray-800 text-gray-200 font-semibold text-base transition flex items-center justify-center gap-2">
+        <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+        WhatsApp Direct
+      </a>
+    </div>
+
+    <!-- Stats Banner -->
+    <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-3xl font-extrabold text-white font-mono">24/7</div>
+        <div class="text-sm text-gray-400 mt-1">Autonomous Execution</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-3xl font-extrabold text-brand-400 font-mono">&lt; 5m</div>
+        <div class="text-sm text-gray-400 mt-1">Lead Response Time</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-3xl font-extrabold text-emerald-400 font-mono">100%</div>
+        <div class="text-sm text-gray-400 mt-1">Turnkey & Automated</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-3xl font-extrabold text-purple-400 font-mono">Multi-Rail</div>
+        <div class="text-sm text-gray-400 mt-1">FPX, Stripe & USDC</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services -->
+  <section id="services" class="py-24 px-6 max-w-7xl mx-auto relative z-10 border-t border-gray-800">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-brand-400 font-mono">Core Capabilities</h2>
+      <h3 class="text-3xl md:text-5xl font-extrabold text-white mt-3">High-Impact Engineering for Real Revenue</h3>
+      <p class="text-gray-400 mt-4 text-base">We don't sell generic advice. We deploy working code, configured pipelines, and automated bots that generate business value from day one.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Service 1 -->
+      <div class="glass-card p-8 rounded-2xl relative overflow-hidden group">
+        <div class="w-14 h-14 rounded-xl bg-brand-500/10 border border-brand-500/20 flex items-center justify-center text-brand-400 mb-6 group-hover:scale-110 transition">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h4 class="text-2xl font-bold text-white">AI Automation & CRM Sync</h4>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed">
+          Autonomous WhatsApp and Telegram bots connected directly to your CRM, Google Sheets, or database. Instant customer replies, appointment booking, and cold lead follow-ups.
+        </p>
+        <ul class="mt-6 space-y-2 text-sm text-gray-300 font-mono">
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> WhatsApp / Evolution API</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Automated Follow-ups</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Zero Human Lag</li>
+        </ul>
+        <div class="mt-8 pt-6 border-t border-gray-800 flex items-center justify-between">
+          <span class="text-xs font-mono text-gray-400">Starting at</span>
+          <span class="text-xl font-bold text-white font-mono">RM 1,200</span>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="glass-card p-8 rounded-2xl relative overflow-hidden group">
+        <div class="w-14 h-14 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-6 group-hover:scale-110 transition">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        </div>
+        <h4 class="text-2xl font-bold text-white">High-Performance Web Apps</h4>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed">
+          Blazing-fast modern websites built for conversion. Integrated payment gateways (ToyyibPay FPX & Stripe), automated lead collection, and SEO optimization.
+        </p>
+        <ul class="mt-6 space-y-2 text-sm text-gray-300 font-mono">
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Next.js / Tailwind CSS</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Stripe & ToyyibPay FPX</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> 99+ Core Web Vitals</li>
+        </ul>
+        <div class="mt-8 pt-6 border-t border-gray-800 flex items-center justify-between">
+          <span class="text-xs font-mono text-gray-400">Starting at</span>
+          <span class="text-xl font-bold text-white font-mono">RM 1,200 – 4,000</span>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="glass-card p-8 rounded-2xl relative overflow-hidden group">
+        <div class="w-14 h-14 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h4 class="text-2xl font-bold text-white">B2B Lead Scraping & Audit</h4>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed">
+          Verified business intelligence extracted directly from Google Maps, LinkedIn, and market directories. Includes verified phones, emails, social handles, and technical audit scorecards.
+        </p>
+        <ul class="mt-6 space-y-2 text-sm text-gray-300 font-mono">
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Verified B2B Phone & Email</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Google Maps & Directory Crawl</li>
+          <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Ready-to-Close Audit PDF</li>
+        </ul>
+        <div class="mt-8 pt-6 border-t border-gray-800 flex items-center justify-between">
+          <span class="text-xs font-mono text-gray-400">Audit / Batch</span>
+          <span class="text-xl font-bold text-white font-mono">$50 – $150 USD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apify Cloud Data Engines Section -->
+  <section id="apify-tools" class="py-24 px-6 max-w-7xl mx-auto relative z-10 border-t border-gray-800">
+    <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12">
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-wider text-brand-400 font-mono">Cloud Engines</h2>
+        <h3 class="text-3xl md:text-4xl font-extrabold text-white mt-2">Upcode Apify Actor Fleet</h3>
+      </div>
+      <p class="text-gray-400 text-sm max-w-md mt-4 md:mt-0">
+        Run serverless data extraction pipelines on demand. Cloud infrastructure with built-in proxy rotation and anti-bot bypass.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="glass-card p-6 rounded-xl">
+        <span class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md">Live Store</span>
+        <h5 class="font-bold text-white text-lg mt-3">Google Maps B2B Extractor</h5>
+        <p class="text-xs text-gray-400 mt-2">Extracts business names, phone numbers, verified websites, and social links at scale.</p>
+        <div class="mt-4 text-xs font-mono text-gray-500">$0.0025 / lead</div>
+      </div>
+
+      <div class="glass-card p-6 rounded-xl">
+        <span class="text-xs font-mono text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded-md">v2 Engine</span>
+        <h5 class="font-bold text-white text-lg mt-3">TikTok Shop Product Hunter</h5>
+        <p class="text-xs text-gray-400 mt-2">Surfaces trending viral products, seller metrics, and real-time sales revenue volume.</p>
+        <div class="mt-4 text-xs font-mono text-gray-500">Pay-Per-Event</div>
+      </div>
+
+      <div class="glass-card p-6 rounded-xl">
+        <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2.5 py-1 rounded-md">v2 Engine</span>
+        <h5 class="font-bold text-white text-lg mt-3">LinkedIn Job Surge Monitor</h5>
+        <p class="text-xs text-gray-400 mt-2">Tracks enterprise hiring surges to pinpoint companies expanding their tech budgets.</p>
+        <div class="mt-4 text-xs font-mono text-gray-500">Pay-Per-Event</div>
+      </div>
+
+      <div class="glass-card p-6 rounded-xl">
+        <span class="text-xs font-mono text-yellow-400 bg-yellow-500/10 px-2.5 py-1 rounded-md">v2 Engine</span>
+        <h5 class="font-bold text-white text-lg mt-3">Multi-DEX Arbitrage Scanner</h5>
+        <p class="text-xs text-gray-400 mt-2">Real-time liquidity and price spread scanner across Base L2, Arbitrum, and Solana.</p>
+        <div class="mt-4 text-xs font-mono text-gray-500">Pay-Per-Event</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transparent Pricing Table -->
+  <section id="pricing" class="py-24 px-6 max-w-7xl mx-auto relative z-10 border-t border-gray-800">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-brand-400 font-mono">Investment Plans</h2>
+      <h3 class="text-3xl md:text-5xl font-extrabold text-white mt-3">Simple, Transparent Pricing</h3>
+      <p class="text-gray-400 mt-4 text-base">No hidden retainer traps. Settle with ToyyibPay FPX, Global Credit Cards (Stripe), or Base L2 USDC.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Tier 1 -->
+      <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border-gray-800">
+        <div>
+          <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">Growth Sprint</span>
+          <h4 class="text-2xl font-bold text-white mt-2">B2B Audit & Blueprint</h4>
+          <p class="text-gray-400 text-sm mt-3">Perfect for businesses needing a clear technical audit and actionable growth roadmap.</p>
+          <div class="mt-6 flex items-baseline gap-2">
+            <span class="text-4xl font-extrabold text-white font-mono">$50</span>
+            <span class="text-sm text-gray-400 font-mono">USD (~RM 220)</span>
+          </div>
+          <ul class="mt-8 space-y-3 text-sm text-gray-300">
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Full Website Technical Audit</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Core Web Vitals & Mobile Analysis</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> AI Answer Engine (GEO) Readiness</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Ready-to-Merge Code Patch</li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <a href="https://wa.me/601125191451?text=Hi%20Upcode,%20I%20want%20to%20order%20the%20$50%20B2B%20Audit%20package." target="_blank" class="block w-full text-center py-3.5 rounded-xl border border-gray-700 bg-gray-900 hover:bg-gray-800 text-white font-semibold transition">
+            Get Audit Blueprint
+          </a>
+        </div>
+      </div>
+
+      <!-- Tier 2: Popular -->
+      <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border-brand-500/50 shadow-2xl shadow-brand-500/10 relative">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brand-600 text-white text-xs font-bold font-mono tracking-wider uppercase">
+          Most Popular
+        </div>
+        <div>
+          <span class="text-xs font-mono text-brand-400 uppercase tracking-widest">Autonomous Core</span>
+          <h4 class="text-2xl font-bold text-white mt-2">AI Automation & Web</h4>
+          <p class="text-gray-400 text-sm mt-3">Complete automated business workflow: High-speed landing page + WhatsApp auto-reply bot.</p>
+          <div class="mt-6 flex items-baseline gap-2">
+            <span class="text-4xl font-extrabold text-white font-mono">RM 1,200</span>
+            <span class="text-sm text-gray-400 font-mono">one-time</span>
+          </div>
+          <ul class="mt-8 space-y-3 text-sm text-gray-300">
+            <li class="flex items-center gap-2"><span class="text-brand-400 font-bold">✓</span> Everything in Growth Sprint</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400 font-bold">✓</span> Custom High-Speed Landing Page</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400 font-bold">✓</span> WhatsApp / Telegram AI Auto-Reply</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400 font-bold">✓</span> Payment Gateway Setup (Stripe/FPX)</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400 font-bold">✓</span> 30 Days Autonomous Uptime Support</li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <a href="https://wa.me/601125191451?text=Hi%20Upcode,%20I%20am%20ready%20for%20the%20RM1200%20AI%20Automation%20%2B%20Web%20package." target="_blank" class="block w-full text-center py-3.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold transition shadow-lg shadow-brand-600/30">
+            Launch Your System
+          </a>
+        </div>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border-gray-800">
+        <div>
+          <span class="text-xs font-mono text-gray-400 uppercase tracking-widest">Full Custom</span>
+          <h4 class="text-2xl font-bold text-white mt-2">Enterprise Solutions</h4>
+          <p class="text-gray-400 text-sm mt-3">Tailored multi-tenant web application, custom database design, and heavy automation pipelines.</p>
+          <div class="mt-6 flex items-baseline gap-2">
+            <span class="text-4xl font-extrabold text-white font-mono">RM 4,000</span>
+            <span class="text-sm text-gray-400 font-mono">custom scope</span>
+          </div>
+          <ul class="mt-8 space-y-3 text-sm text-gray-300">
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Full-Stack Web App (Dashboard / Portal)</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Multi-Agent Orchestration</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Database Architecture (Postgres/DuckDB)</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Dedicated Deployment & Maintenance</li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <a href="https://wa.me/601125191451?text=Hi%20Upcode,%20I%20would%20like%20to%20discuss%20an%20Enterprise%20custom%20solution." target="_blank" class="block w-full text-center py-3.5 rounded-xl border border-gray-700 bg-gray-900 hover:bg-gray-800 text-white font-semibold transition">
+            Contact Architecture Team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Consultation -->
+  <section id="contact" class="py-24 px-6 max-w-4xl mx-auto relative z-10 border-t border-gray-800 text-center">
+    <div class="glass-card p-10 md:p-14 rounded-3xl">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-white">Ready to Transform Your Workflow?</h3>
+      <p class="text-gray-400 mt-4 max-w-xl mx-auto text-base">
+        Direct human-to-engineer conversation. Tell us about your business bottleneck, and we will demonstrate how automation fixes it.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/601125191451?text=Hello%20Upcode,%20let's%20build%20something%20together." target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-base transition flex items-center justify-center gap-3">
+          <span>Chat on WhatsApp</span>
+        </a>
+        <a href="mailto:janjisampai7@gmail.com" class="w-full sm:w-auto px-8 py-4 rounded-xl border border-gray-700 bg-gray-900 hover:bg-gray-800 text-gray-200 font-semibold text-base transition">
+          Email: janjisampai7@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-800/80 text-center text-xs text-gray-500 font-mono">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© 2026 UPCODE.ID (Atlas Digital Agency). All rights reserved.</div>
+      <div class="flex items-center gap-6">
+        <span>Kuala Lumpur, MY</span>
+        <span>•</span>
+        <span>Stripe Live & FPX Ready</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
